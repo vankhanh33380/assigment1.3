@@ -1,0 +1,27 @@
+body {
+    font: 600 14px/24px "Open Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", Sans-Serif;
+}
+.container{
+    *zoom: 1;
+}
+.container,
+section{
+    border-radius: 6px;
+}
+section{
+    background-color: #2db34a;
+    color: #fff;
+    margin: 1em;
+    padding: 20px 0;
+    text-align: center;
+}
+section{
+    float: left;
+    width: 100%;
+}
+section:hover{
+    background-color: red;
+    color: green;
+}
+
+
